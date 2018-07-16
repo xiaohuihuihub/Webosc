@@ -93,9 +93,9 @@
     width: 100%;
     float: left;
   }
-  .form{
-    height: calc(100vh - 60px);
-  }
+  /*.form{*/
+    /*height: calc(100vh - 60px);*/
+  /*}*/
   #form{
     max-width: 350px;
     min-height: 200px;

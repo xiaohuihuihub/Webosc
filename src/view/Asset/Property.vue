@@ -1,6 +1,6 @@
 <!--suppress ALL -->
 <template>
-  <div>
+  <div class="property">
     <Header-component></Header-component>
     <el-container>
       <el-main>
@@ -217,6 +217,10 @@
   }
 </script>
 <style>
+.property{
+  width: 100%;
+  overflow: hidden;
+}
 .tab-bar{
   width: 100%;
   height: 40px;

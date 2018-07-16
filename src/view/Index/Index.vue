@@ -174,6 +174,10 @@
 </script>
 
 <style >
+.detail{
+    width: 100%;
+    overflow: hidden;
+}
 .table-th{
     font-weight: 500;
     font-size: 13px;

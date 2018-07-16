@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="account">
       <header-component></header-component>
     <!--main start-->
     <router-view>
@@ -16,5 +16,8 @@ export default {
 }
 </script>
 <style>
-
+.account{
+    width: 100%;
+    overflow: hidden;
+}
 </style>

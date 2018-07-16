@@ -119,13 +119,19 @@
 </script>
 
 <style scoped>
-    section{
+   .register{
+    overflow: hidden;
+    /* height: calc(100vh - 62px); */
+    float: left;
+    width: 100%;
+  }
+  section{
     width: 100%;
     float: left;
   }
-  .form{
-    height: calc(100vh - 60px);
-  }
+  /*.form{*/
+    /*height: calc(100vh - 62px);*/
+  /*}*/
   #form{
     max-width: 400px;
     min-height: 350px;

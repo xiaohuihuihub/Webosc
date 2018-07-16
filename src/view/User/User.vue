@@ -1,5 +1,5 @@
 <template>
-    <div class="register">
+    <div class="content">
       <!--header start-->
       <header-component></header-component>
       <!--header end-->
@@ -23,16 +23,19 @@
 </script>
 
 <style scoped>
-  .register{
+  .content{
     width: 100%;
     height: 100%;
     background: #181f2e;
     font-size: 15px;
+    float: left;
+    overflow: hidden;
   }
   header{
     color:#fff;
     line-height: 60px;
     border-bottom: 1px solid #242933;
+      box-sizing: border-box;
   }
   .main{
     display: flex;
